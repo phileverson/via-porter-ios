@@ -22,5 +22,10 @@
     "gulp-shell": "^0.2.9",
     "gulp-notify": "^1.5.0",
     "jshint-stylish": "^0.4.0"
-  }
+  },
+  "cordovaPlugins": [
+    "https://github.com/don/KeyboardToolbarRemover",
+    "com.ionic.keyboard",
+    "https://github.com/apache/cordova-plugins.git#master:keyboard"
+  ]
 }
