@@ -5,7 +5,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   
-  <title>CanTicket</title>  
+  <title>CanTravel</title>  
   
   <link rel="stylesheet" href="lib/onsen/css/onsenui.css">  
   <link rel="stylesheet" href="lib/onsen/css/onsen-css-components.css">  
@@ -31,16 +31,13 @@ function keyboardShowHandler(e){
 }
 
     angular.module('app', ['onsen', 'firebase']);
-
     angular.module('app').controller('AppController', function($scope, $firebase) {
 
 		  $scope.emailLookup = '';
 
       $scope.getAllPasses = function(emailLookup) {
-
         // Get a reference to our passes
         var ref = new Firebase("https://via-porter.firebaseio.com/passes");
-
         // create an AngularFire reference to the data
         var sync = $firebase(ref);
         // download the data into a (psuedo read-only), sorted array
@@ -49,49 +46,60 @@ function keyboardShowHandler(e){
         // place the list into $scope for use in the DOM
         // $scope.passes = passesArray;
 
-var newPassesArray = [];
+        var newPassesArray = [];
 
-// var ref = new Firebase("https://dinosaur-facts.firebaseio.com/dinosaurs");
-ref.orderByChild("passEmail").equalTo(emailLookup).on("value", function(snapshot) {
-  snapshot.forEach(function(data) {
-    console.log(data.val().passEmail);
-    newPassesArray[newPassesArray.length] = data.val();
-  });  
-});
+        // var ref = new Firebase("https://dinosaur-facts.firebaseio.com/dinosaurs");
+        ref.orderByChild("passEmail").equalTo(emailLookup).on("value", function(snapshot) {
+          snapshot.forEach(function(data) {
+            newPassesArray[newPassesArray.length] = data.val();
+          });  
+        });
 
-$scope.passes = newPassesArray;
-
-console.log(emailLookup);
-
-
-        // // Attach an asynchronous callback to read the data at our posts reference
-        // ref.on("value", function(snapshot) {
-        //   snapshot.forEach(function(data) {
-        //     console.log("Key: " + data.key() + " Email: " + data.val().passEmail);
-        //     $scope.emails = data.val();
-
-        // console.log($scope.emails);
-        //   });
-
-        // }, function (errorObject) {
-        //   console.log("The read failed: " + errorObject.code);
-        // });
-
+       /// wait 1 second to let firebase catch up
+        setTimeout(function() {
+            if(newPassesArray.length > 0)
+            {
+              // $('#userMessage-EnterEmailStart').css('display', 'none');
+              $('#userMessage-NoResults').css('display', 'none');
+            }
+            else 
+            {
+              $('#userMessage-NoResults').css('display', 'block');
+              // $('#userMessage-EnterEmailStart').css('display', 'block');
+            }
+            $scope.passes = newPassesArray;
+        }, 1000);
 		  }
 
       $scope.addPass = function() {
-      	ons.createAlertDialog('alert-dialog-add-pass.html').then(function(alertDialog) {
-    			alertDialog.show();
-			  });
+        ons.createAlertDialog('alert-dialog-add-pass.html').then(function(alertDialog) {
+          alertDialog.show();
+        });
       };
 
-		  $scope.reIssuePass = function(passAddress, emailLookup) {
+      $scope.clearData = function() {
+        $scope.passes = '';
+        $scope.emailLookup = '';
+      }
+
+      $scope.emailPhil = function() {
+        // window.location.href = "http://www.google.com";
+        window.location.href = "mailto:phil@CanTravel.co?subject=Expecting Pass / Bug";
+        // window.location.href = "message:%3C3358921718340173851@unknownmsgid%3E";
+      };
+
+      $scope.openMailApp = function() {
+        // window.location.href = "http://www.google.com";
+        // window.location.href = "mailto:phil@CanTravel.co?subject=Expecting Pass";
+        window.location.href = "message:%3C3358921718340173851@unknownmsgid%3E";
+      };
+
+		  $scope.reIssuePass = function(passAddress, emailLookup, passTrainNum) {
+        $.post( "http://www.cantravel.co/process/resend.php", { emailToSend: emailLookup, passURL: passAddress, passTrainNum: passTrainNum } );
 		    ons.notification.alert({
-		      message: "Your pass has been resent to: " + emailLookup + ". DEV: " + passAddress
+		      message: "For security purposes, your pass has been resent to you at " + emailLookup + "."
 		    });
 		  }
-
-
     });
 
   </script>
@@ -145,6 +153,27 @@ console.log(emailLookup);
       opacity: 0.4;
       padding: 10px 0 0px 10px;
       margin-bottom: -4px;
+      padding-right: 10px;
+    }
+
+        .faq-header-answer {
+      
+      font-size: 14px;
+      opacity: 0.4;
+      padding: 10px 0 0px 10px;
+      margin-bottom: -4px;
+      padding-right: 10px;
+      margin-left: 10px;
+    }
+
+        .faq-header-question {
+      
+      font-size: 14px;
+      padding-right: 10px;
+      opacity: 0.4;
+      padding: 10px 0 0px 10px;
+      margin-bottom: -4px;
+      margin-left: 10px;
     }
 
     .settings-list {
@@ -240,7 +269,7 @@ margin-top: 10px;
       </div>
     </ons-tabbar-item>
     <ons-tabbar-item page="help-feedback.html">
-      <div class="tab">
+      <div class="tab" ng-click="clearData()">
         <ons-icon icon="fa-question-circle" class="tab-icon"></ons-icon>
         <div class="tab-label">Help/Feedback</div>
       </div>
@@ -253,9 +282,9 @@ margin-top: 10px;
       <ons-page>
         <ons-toolbar>
           <div class="left">
-            <ons-toolbar-button ng-click="addPass()"><ons-icon icon="fa-plus"></ons-icon> New Pass</ons-toolbar-button>
+            <ons-toolbar-button ng-click="addPass()"><ons-icon icon="fa-plus"></ons-icon> Add Pass</ons-toolbar-button>
           </div>
-          <div class="center">CanTicket</div>
+          <div class="center">CanTravel</div>
           <div class="right"></div>
         </ons-toolbar>
 
@@ -263,11 +292,17 @@ margin-top: 10px;
           
           <ons-list-item modifier="" class="item" id="firstList">
             <ons-row>
+              <ons-col>
+                <div class="settings-header" id="userMessage-EnterEmailStart" style="padding-right:0px; padding-left: 0px; padding-bottom: 10px; padding-top: 0px;">Please enter your email address to view passes previously forwarded to ticket@cantravel.co.</div>
+                <div class="settings-header" id="userMessage-NoResults" style="padding-right:0px; display: none; padding-left: 0px; padding-bottom: 10px; padding-top: 0px;">Sorry, it doesn't look like we've received any boarding passes from that email address. </br>If you're expecting to see a pass, shoot us an <span style="font-weight: bold; text-decoration: underline" ng-click="emailPhil()">email</span> and we'll followup.</div>
+              </ons-col>
+            </ons-row>
+            <ons-row>
               <ons-col width="100px">
                   <span class="signup-item-title">Email:</span>
               </ons-col>
               <ons-col>
-                <input class="text-input signup-input" type="email" ng-model="emailLookup" autocapitalize="on" autocorrect="off">
+                <input class="text-input signup-input" type="text" ng-model="emailLookup" autocapitalize="on" autocorrect="off">
               </ons-col>
             </ons-row>
             <ons-row>
@@ -291,7 +326,7 @@ margin-top: 10px;
                 <p class="item-desc">Processed On: {{ passe.passSentDate }}</p>
               </ons-col>
               <ons-col width="112px"> 
-                	<ons-button class="reissue-button" ng-click="reIssuePass( passe.passPath, passe.passEmail )">
+                	<ons-button class="reissue-button" ng-click="reIssuePass( passe.passPath, passe.passEmail, passe.passTrainNum )">
                 		<ons-icon icon="fa-share" class="pass-list-button"></ons-icon>
                 		Reissue Pass
                 	</ons-button>
@@ -308,23 +343,31 @@ margin-top: 10px;
   <ons-template id="help-feedback.html">
     <ons-page>
       <ons-toolbar>
-        <div class="center">CanTicket</div>
+        <div class="center">CanTravel</div>
       </ons-toolbar>
+      <div class="settings-header">Caught a bug or have feedback about CanTravel? We'd love to hear about it, please shoot us an <span style="font-weight: bold; text-decoration: underline" ng-click="emailPhil()">email</span> and let us know!</div>
 
-			<div class="settings-header">Common Questions/Issues</div>
-      <div class="settings-header">Caught a bug or have feedback about CanTicket? We'd love to hear about it, let us know in the form below!</div>
+
+      </br>
+
+      <div class="settings-header">Common Questions/Issues</div>
+      <div class="faq-header-question">Question: I forwarded my boarding pass, but it's still not showing under my list of passes.</div>
+      <div class="faq-header-answer">Answer: When forwarding your pass, please ensure you include attachments in the message. Also, wait for the VIA rail barcode to completely finish downloading, before attempting to forward. If you're still having trouble, please <span style="font-weight: bold; text-decoration: underline" ng-click="emailPhil()">email</span> us! </div>
+<!--       <div class="faq-header-question">I forwarded my boarding pass, but it's still not showing under my list of passes.</div>
+      <div class="faq-header-answer">When forwarding your pass, please ensure you include attachments in the message. Also, wait for the VIA rail barcode to completely finish downloading, before attempting to forward. If you're still having trouble, please <span style="font-weight: bold; text-decoration: underline" ng-click="emailPhil()">email</span> us! </div> -->
 
     </ons-page>
   </ons-template>
 
   <ons-template id="alert-dialog-add-pass.html">
     <ons-alert-dialog var="alertDialogAddPass">
-      <div class="alert-dialog-title"><strong style="color: #ff3333">Critical Alert!</strong></div>
+      <div class="alert-dialog-title"><strong>Add a Boarding Pass</strong></div>
       <div class="alert-dialog-content">
-        An error has occurred!
+        To add a boarding pass, please forward your official VIA Rail e-ticket to: ticket@cantravel.co 
       </div>
       <div class="alert-dialog-footer">
-        <button class="alert-dialog-button" ng-click="alertDialogAddPass.hide()">OK</button>
+        <button class="alert-dialog-button" ng-click="openMailApp()" style="font-weight: bold">Open Mail</button>
+        <button class="alert-dialog-button" ng-click="alertDialogAddPass.hide()">Cancel</button>
       </div>
     </ons-alert-dialog>      
 	</ons-template>

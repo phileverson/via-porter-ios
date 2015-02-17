@@ -1120,3 +1120,264 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-02-15 21:59:28.891 CanTravel v0.0[18284:247495] Resetting plugins due to page load.
 2015-02-15 21:59:29.930 CanTravel v0.0[18284:247495] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/EBC6C523-782B-4E92-98DE-A38B5DDC7B69/CanTravel%20v0.0.app/www/index.html
 2015-02-15 21:59:34.814 CanTravel v0.0[18284:247495] THREAD WARNING: ['Keyboard'] took '2411.166992' ms. Plugin should use a background thread.
+2015-02-17 12:52:22.767 CanTravel v0.0[3082:99194] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/F5D35A5B-AA89-4AE5-8498-A700E62D9EA0/Library/Cookies/Cookies.binarycookies
+2015-02-17 12:52:22.863 CanTravel v0.0[3082:99194] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 12:52:22.864 CanTravel v0.0[3082:99194] Multi-tasking -> Device: YES, App: YES
+2015-02-17 12:52:22.865 CanTravel v0.0[3082:99194] Unlimited access to network resources
+2015-02-17 12:52:22.867 CanTravel v0.0[3082:99194] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 12:52:23.060 CanTravel v0.0[3082:99194] [CDVTimer][keyboard] 0.060022ms
+2015-02-17 12:52:23.061 CanTravel v0.0[3082:99194] [CDVTimer][TotalPluginStartup] 0.241041ms
+2015-02-17 12:52:23.198 CanTravel v0.0[3082:99194] Resetting plugins due to page load.
+2015-02-17 12:52:26.656 CanTravel v0.0[3082:99194] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/CB36FEEE-541E-4BED-9D92-E8F81CAA1ADD/CanTravel%20v0.0.app/www/index.html
+2015-02-17 12:58:23.197 CanTravel v0.0[3278:102967] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/4B03F75F-47B4-4222-B4C6-6A149BEA9EBE/Library/Cookies/Cookies.binarycookies
+2015-02-17 12:58:23.308 CanTravel v0.0[3278:102967] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 12:58:23.308 CanTravel v0.0[3278:102967] Multi-tasking -> Device: YES, App: YES
+2015-02-17 12:58:23.310 CanTravel v0.0[3278:102967] Unlimited access to network resources
+2015-02-17 12:58:23.313 CanTravel v0.0[3278:102967] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 12:58:23.541 CanTravel v0.0[3278:102967] [CDVTimer][keyboard] 0.093997ms
+2015-02-17 12:58:23.541 CanTravel v0.0[3278:102967] [CDVTimer][TotalPluginStartup] 0.349998ms
+2015-02-17 12:58:23.715 CanTravel v0.0[3278:102967] Resetting plugins due to page load.
+2015-02-17 12:58:25.916 CanTravel v0.0[3278:102967] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/EB92EC16-5369-4628-8A4C-88DE603BB15E/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:00:08.630 CanTravel v0.0[3452:104088] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/F5C361EA-4F46-47F7-9E80-26664F112A47/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:00:08.738 CanTravel v0.0[3452:104088] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:00:08.739 CanTravel v0.0[3452:104088] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:00:08.740 CanTravel v0.0[3452:104088] Unlimited access to network resources
+2015-02-17 13:00:08.742 CanTravel v0.0[3452:104088] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:00:08.942 CanTravel v0.0[3452:104088] [CDVTimer][keyboard] 0.096023ms
+2015-02-17 13:00:08.943 CanTravel v0.0[3452:104088] [CDVTimer][TotalPluginStartup] 0.347018ms
+2015-02-17 13:00:09.032 CanTravel v0.0[3452:104088] Resetting plugins due to page load.
+2015-02-17 13:00:10.200 CanTravel v0.0[3452:104088] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/7AC3219B-5E27-4CBF-BB3C-19E09FAC6F7E/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:01:47.835 CanTravel v0.0[3628:105107] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/90659B41-ECBF-4920-B4E6-13D7883F812C/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:01:47.942 CanTravel v0.0[3628:105107] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:01:47.942 CanTravel v0.0[3628:105107] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:01:47.943 CanTravel v0.0[3628:105107] Unlimited access to network resources
+2015-02-17 13:01:47.945 CanTravel v0.0[3628:105107] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:01:48.151 CanTravel v0.0[3628:105107] [CDVTimer][keyboard] 0.069022ms
+2015-02-17 13:01:48.151 CanTravel v0.0[3628:105107] [CDVTimer][TotalPluginStartup] 0.256002ms
+2015-02-17 13:01:48.237 CanTravel v0.0[3628:105107] Resetting plugins due to page load.
+2015-02-17 13:01:49.809 CanTravel v0.0[3628:105107] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/A700F0F3-A873-4AB9-8D70-53A5C6202EA1/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:11:47.744 CanTravel v0.0[3849:109959] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/CC35DB76-1676-4BED-884F-C3CB4261A6D9/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:11:47.839 CanTravel v0.0[3849:109959] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:11:47.839 CanTravel v0.0[3849:109959] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:11:47.841 CanTravel v0.0[3849:109959] Unlimited access to network resources
+2015-02-17 13:11:47.844 CanTravel v0.0[3849:109959] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:11:48.078 CanTravel v0.0[3849:109959] [CDVTimer][keyboard] 0.101984ms
+2015-02-17 13:11:48.078 CanTravel v0.0[3849:109959] [CDVTimer][TotalPluginStartup] 0.378966ms
+2015-02-17 13:11:48.159 CanTravel v0.0[3849:109959] Resetting plugins due to page load.
+2015-02-17 13:11:49.500 CanTravel v0.0[3849:109959] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/B70D2ADB-6184-4531-95C1-EF72F9CC5896/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:22:43.518 CanTravel v0.0[4062:115151] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/D82F2E15-AA54-4316-BE6E-2908C97A6FC4/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:22:43.608 CanTravel v0.0[4062:115151] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:22:43.609 CanTravel v0.0[4062:115151] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:22:43.611 CanTravel v0.0[4062:115151] Unlimited access to network resources
+2015-02-17 13:22:43.613 CanTravel v0.0[4062:115151] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:22:43.820 CanTravel v0.0[4062:115151] [CDVTimer][keyboard] 0.063956ms
+2015-02-17 13:22:43.820 CanTravel v0.0[4062:115151] [CDVTimer][TotalPluginStartup] 0.247002ms
+2015-02-17 13:22:43.939 CanTravel v0.0[4062:115151] Resetting plugins due to page load.
+2015-02-17 13:22:44.945 CanTravel v0.0[4062:115151] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/06120910-5EDC-4B25-94D1-AEBA94BB5D73/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:22:51.973 CanTravel v0.0[4062:115151] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:22:54.032 CanTravel v0.0[4062:115151] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:22:58.315 CanTravel v0.0[4062:115151] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:23:00.767 CanTravel v0.0[4062:115151] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:24:22.142 CanTravel v0.0[4239:116399] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/09A534F6-E9EC-4573-B5FF-3987C362C7E5/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:24:22.251 CanTravel v0.0[4239:116399] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:24:22.251 CanTravel v0.0[4239:116399] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:24:22.253 CanTravel v0.0[4239:116399] Unlimited access to network resources
+2015-02-17 13:24:22.255 CanTravel v0.0[4239:116399] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:24:22.458 CanTravel v0.0[4239:116399] [CDVTimer][keyboard] 0.072956ms
+2015-02-17 13:24:22.458 CanTravel v0.0[4239:116399] [CDVTimer][TotalPluginStartup] 0.254989ms
+2015-02-17 13:24:22.513 CanTravel v0.0[4239:116399] Resetting plugins due to page load.
+2015-02-17 13:24:23.820 CanTravel v0.0[4239:116399] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/D2A8BADA-08CC-45F0-AE42-DACA3820C07C/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:24:25.761 CanTravel v0.0[4239:116399] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:24:27.096 CanTravel v0.0[4239:116399] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:24:28.248 CanTravel v0.0[4239:116399] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:26:43.887 CanTravel v0.0[4419:117993] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/E671FDE3-229E-4D27-8CA5-B46EF443655C/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:26:43.983 CanTravel v0.0[4419:117993] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:26:43.983 CanTravel v0.0[4419:117993] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:26:43.985 CanTravel v0.0[4419:117993] Unlimited access to network resources
+2015-02-17 13:26:43.987 CanTravel v0.0[4419:117993] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:26:44.184 CanTravel v0.0[4419:117993] [CDVTimer][keyboard] 0.072956ms
+2015-02-17 13:26:44.184 CanTravel v0.0[4419:117993] [CDVTimer][TotalPluginStartup] 0.294030ms
+2015-02-17 13:26:44.238 CanTravel v0.0[4419:117993] Resetting plugins due to page load.
+2015-02-17 13:26:45.220 CanTravel v0.0[4419:117993] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/ECA1D6B2-4AF6-4EF4-9EFA-E01791E0EC59/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:27:35.119 CanTravel v0.0[4590:118795] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/F5E2185A-0FB5-434F-B127-BE3C33245ACF/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:27:35.221 CanTravel v0.0[4590:118795] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:27:35.221 CanTravel v0.0[4590:118795] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:27:35.223 CanTravel v0.0[4590:118795] Unlimited access to network resources
+2015-02-17 13:27:35.225 CanTravel v0.0[4590:118795] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:27:35.418 CanTravel v0.0[4590:118795] [CDVTimer][keyboard] 0.072956ms
+2015-02-17 13:27:35.418 CanTravel v0.0[4590:118795] [CDVTimer][TotalPluginStartup] 0.252008ms
+2015-02-17 13:27:35.475 CanTravel v0.0[4590:118795] Resetting plugins due to page load.
+2015-02-17 13:27:36.485 CanTravel v0.0[4590:118795] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/B03C5692-A015-4590-9E81-369E7BF933DC/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:27:39.002 CanTravel v0.0[4590:118795] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:27:39.683 CanTravel v0.0[4590:118795] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:27:40.751 CanTravel v0.0[4590:118795] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:27:42.119 CanTravel v0.0[4590:118795] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:27:42.822 CanTravel v0.0[4590:118795] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:28:34.892 CanTravel v0.0[4768:119973] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/E31B16A7-1C7F-4E14-9CDD-941B566FCA4C/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:28:34.995 CanTravel v0.0[4768:119973] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:28:34.996 CanTravel v0.0[4768:119973] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:28:34.997 CanTravel v0.0[4768:119973] Unlimited access to network resources
+2015-02-17 13:28:34.999 CanTravel v0.0[4768:119973] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:28:35.195 CanTravel v0.0[4768:119973] [CDVTimer][keyboard] 0.090003ms
+2015-02-17 13:28:35.195 CanTravel v0.0[4768:119973] [CDVTimer][TotalPluginStartup] 0.340998ms
+2015-02-17 13:28:35.249 CanTravel v0.0[4768:119973] Resetting plugins due to page load.
+2015-02-17 13:28:37.227 CanTravel v0.0[4768:119973] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/79F56A07-D4F9-42C5-A7C7-85C435F0E5FB/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:28:38.686 CanTravel v0.0[4768:119973] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:28:39.524 CanTravel v0.0[4768:119973] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:28:40.698 CanTravel v0.0[4768:119973] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:28:41.346 CanTravel v0.0[4768:119973] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:28:41.947 CanTravel v0.0[4768:119973] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:29:39.108 CanTravel v0.0[4942:120896] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/6B0813C8-9EC1-4048-86F7-D376422BDD51/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:29:39.202 CanTravel v0.0[4942:120896] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:29:39.203 CanTravel v0.0[4942:120896] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:29:39.205 CanTravel v0.0[4942:120896] Unlimited access to network resources
+2015-02-17 13:29:39.207 CanTravel v0.0[4942:120896] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:29:39.425 CanTravel v0.0[4942:120896] [CDVTimer][keyboard] 0.061035ms
+2015-02-17 13:29:39.425 CanTravel v0.0[4942:120896] [CDVTimer][TotalPluginStartup] 0.239968ms
+2015-02-17 13:29:39.541 CanTravel v0.0[4942:120896] Resetting plugins due to page load.
+2015-02-17 13:29:40.605 CanTravel v0.0[4942:120896] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/A8DCDB2C-F847-418A-AEFC-32C4F3E48EE4/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:29:43.099 CanTravel v0.0[4942:120896] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:30:02.771 CanTravel v0.0[4942:120896] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:30:07.345 CanTravel v0.0[4942:120896] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:34:26.715 CanTravel v0.0[5148:123759] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Data/Application/02E2C26B-885C-4505-8D35-AEEAFF0A8468/Library/Cookies/Cookies.binarycookies
+2015-02-17 13:34:26.810 CanTravel v0.0[5148:123759] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 13:34:26.811 CanTravel v0.0[5148:123759] Multi-tasking -> Device: YES, App: YES
+2015-02-17 13:34:26.812 CanTravel v0.0[5148:123759] Unlimited access to network resources
+2015-02-17 13:34:26.815 CanTravel v0.0[5148:123759] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 13:34:27.025 CanTravel v0.0[5148:123759] [CDVTimer][keyboard] 0.061035ms
+2015-02-17 13:34:27.025 CanTravel v0.0[5148:123759] [CDVTimer][TotalPluginStartup] 0.241995ms
+2015-02-17 13:34:27.140 CanTravel v0.0[5148:123759] Resetting plugins due to page load.
+2015-02-17 13:34:28.339 CanTravel v0.0[5148:123759] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/AB5EA958-C936-48C1-AA31-90B45E6D2724/CanTravel%20v0.0.app/www/index.html
+2015-02-17 13:34:30.052 CanTravel v0.0[5148:123759] Resetting plugins due to page load.
+2015-02-17 13:34:30.838 CanTravel v0.0[5148:123759] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-02-17 13:34:30.838 CanTravel v0.0[5148:123759] Resetting plugins due to page load.
+2015-02-17 13:34:31.474 CanTravel v0.0[5148:123759] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-02-17 13:34:31.474 CanTravel v0.0[5148:123759] Resetting plugins due to page load.
+2015-02-17 13:34:38.668 CanTravel v0.0[5148:123759] Finished load of: https://www.google.ca/?gfe_rd=cr&ei=t4njVL3wIMG0sQeznoDoAg&gws_rd=ssl
+2015-02-17 13:34:58.245 CanTravel v0.0[5148:123759] Resetting plugins due to page load.
+2015-02-17 13:35:01.221 CanTravel v0.0[5148:123759] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-02-17 13:35:01.221 CanTravel v0.0[5148:123759] Resetting plugins due to page load.
+2015-02-17 13:35:01.685 CanTravel v0.0[5148:123759] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-02-17 13:35:01.685 CanTravel v0.0[5148:123759] Resetting plugins due to page load.
+2015-02-17 13:35:03.100 CanTravel v0.0[5148:123759] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-02-17 13:35:03.101 CanTravel v0.0[5148:123759] Resetting plugins due to page load.
+2015-02-17 13:35:46.461 CanTravel v0.0[5148:123759] Finished load of: http://www.phileverson.com/#
+2015-02-17 13:35:54.131 CanTravel v0.0[5148:123759] Resetting plugins due to page load.
+2015-02-17 13:35:56.268 CanTravel v0.0[5148:123759] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:36:14.145 CanTravel v0.0[5148:123759] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:36:47.204 CanTravel v0.0[5148:123759] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 13:36:48.004 CanTravel v0.0[5148:123759] Failed to load webpage with error: The URL can’t be shown
+2015-02-17 14:40:21.993 CanTravel v0.0[5618:157036] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 14:40:21.994 CanTravel v0.0[5618:157036] Multi-tasking -> Device: YES, App: YES
+2015-02-17 14:40:21.996 CanTravel v0.0[5618:157036] Unlimited access to network resources
+2015-02-17 14:40:21.998 CanTravel v0.0[5618:157036] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 14:40:22.207 CanTravel v0.0[5618:157036] [CDVTimer][keyboard] 0.066996ms
+2015-02-17 14:40:22.207 CanTravel v0.0[5618:157036] [CDVTimer][TotalPluginStartup] 0.244975ms
+2015-02-17 14:40:22.392 CanTravel v0.0[5618:157036] Resetting plugins due to page load.
+2015-02-17 14:40:26.195 CanTravel v0.0[5618:157036] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/D5890EE4-4C2A-4A47-A4C3-8930297486CF/CanTravel%20v0.0.app/www/index.html
+2015-02-17 15:20:32.892 CanTravel v0.0[6603:186639] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 15:20:32.893 CanTravel v0.0[6603:186639] Multi-tasking -> Device: YES, App: YES
+2015-02-17 15:20:32.910 CanTravel v0.0[6603:186639] Unlimited access to network resources
+2015-02-17 15:20:32.921 CanTravel v0.0[6603:186639] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-17 15:20:33.275 CanTravel v0.0[6603:186639] [CDVTimer][keyboard] 0.070989ms
+2015-02-17 15:20:33.275 CanTravel v0.0[6603:186639] [CDVTimer][TotalPluginStartup] 1.047015ms
+2015-02-17 15:20:33.527 CanTravel v0.0[6603:186639] Resetting plugins due to page load.
+2015-02-17 15:21:04.552 CanTravel v0.0[6603:186639] Finished load of: file:///Users/phileverson/Library/Developer/CoreSimulator/Devices/A0D0D18C-B221-4C99-9015-7F2EAFE9D66D/data/Containers/Bundle/Application/829A9136-F5EE-4D85-8428-59F3A9E3BBF2/CanTravel%20v0.0.app/www/index.html
